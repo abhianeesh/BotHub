@@ -22,8 +22,8 @@ PREV_REPLY_MESSAGE = {}
 BAALAJI_TG_USER_BOT = "My Master hasn't approved you to PM."
 TG_COMPANION_USER_BOT = "Please wait for his response and don't spam his PM."
 UNIBORG_USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me."
-UNIBORG_USER_BOT_NO_WARN = "Hey!This is an automated message.\n\n" "I haven't approved you to PM yet.\n" Please wait for me to
-look in, I mostly approve PMs. /n/n" "Until then, please don't spam my PM, you'll get blocked and reported if you do so!"
+UNIBORG_USER_BOT_NO_WARN = ("Hey!This is an automated message. \n\n" "I haven't approved you to PM yet. \n" Please wait for me to
+look in, I mostly approve PMs. /n/n" "Until then, please don't spam my PM, you'll get blocked and reported if you do so!")
 @borg.on(admin_cmd(pattern="nccreatedch"))
 async def create_dump_channel(event):
     if Config.PM_LOGGR_BOT_API_ID is None:
