@@ -44,8 +44,8 @@ async def _(event):
 
     me = borg.me
     userid = event.from_id
-    packname = f"{userid}'s @UniBorg Pack"
-    packshortname = f"Uni_Borg_{userid}"  # format: Uni_Borg_userid
+    packname = f"{userid}'s @Adarsh T"
+    packshortname = f"Adarsh_T{userid}"  # format: Adarsh_T_userid
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@UniBorg_Sticker.png"
@@ -58,7 +58,7 @@ async def _(event):
         if userid == 719877937:
             packshortname = "SnapDragon_Animated"
         else:
-            packshortname = f"Uni_Borg_{userid}_as" # format: Uni_Borg_userid
+            packshortname = f"Adarsh_T_{userid}_as" # format: Adarsh_T_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
