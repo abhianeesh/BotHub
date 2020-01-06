@@ -41,4 +41,8 @@ numpy>=1.11.1
 databases[sqlite]
 praw
 opencv_python>=1.1.1
-
+pytuneteller
+dadjokes-cli
+jotquote
+csvfaker
+fast.com
