@@ -46,3 +46,7 @@ dadjokes-cli
 jotquote
 csvfaker
 fast.com
+names
+kwot
+auto-openvpn
+programmingquotes
