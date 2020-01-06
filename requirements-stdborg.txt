@@ -50,3 +50,4 @@ names
 kwot
 auto-openvpn
 programmingquotes
+random_cli
