@@ -669,7 +669,7 @@ async def _(event):
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
-    OUTPUT = f"**[Adarsh's](tg://need_update_for_some_feature/) , Name generator for Your BotHub...**\n"
+    OUTPUT = f"**[Adarsh's](tg://need_update_for_some_feature/) , Name generator for Your Account...**\n"
     stdout, stderr = await process.communicate()
     if len(stdout) > Config.MAX_MESSAGE_SIZE_LIMIT:
         with io.BytesIO(str.encode(stdout)) as out_file:
@@ -748,7 +748,7 @@ async def _(event):
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
-    OUTPUT = f"**[Adarsh's](tg://need_update_for_some_feature/) , password generator for Your BotHub...**\n"
+    OUTPUT = f"**[Adarsh's](tg://need_update_for_some_feature/) , password generator for Your Account...**\n"
     stdout, stderr = await process.communicate()
     if len(stdout) > Config.MAX_MESSAGE_SIZE_LIMIT:
         with io.BytesIO(str.encode(stdout)) as out_file:
@@ -906,7 +906,7 @@ async def _(event):
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
-    OUTPUT = f"**[Adarsh's](tg://need_update_for_some_feature/) , fake id generator for Your BotHub...**\n"
+    OUTPUT = f"**[Adarsh's](tg://need_update_for_some_feature/) , fake id generator for Your Account...**\n"
     stdout, stderr = await process.communicate()
     if len(stdout) > Config.MAX_MESSAGE_SIZE_LIMIT:
         with io.BytesIO(str.encode(stdout)) as out_file:
