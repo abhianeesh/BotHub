@@ -32,8 +32,7 @@ logger = logging.getLogger(__name__)
 def register(cb):
     cb(QuotesMod())
 
-
-@loader.tds
+@borg.on(admin_cmd("quotes ?(.*)"))
 class QuotesMod(loader.Module):
     """Quote a message."""
     strings = {
