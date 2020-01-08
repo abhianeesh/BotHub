@@ -14,7 +14,7 @@ async def _(event):
         s_helpme_string = borg._plugins[splugin_name].__doc__
     else:
         s_helpme_string = "****:"
-    helpme_string = """@Bot_Hub_Official™️ ( **Custom Built By** @Three_Cube_TeKnoways_bot ) \n**Verified Account**: ✅\n**Official Website**: http://www.threecube.tk\n**NOTICE**: **COMMANDS** are CASE **sensitive**\n**DESCRIPTION**: https://telegra.ph/command-list-for-BotHub-Userbot-11-08\nPithun {}\nTalethrun {}\n
+    helpme_string = """@UniBorg ( **Custom Built By** @adarsht123 ) \n**Verified Account**: ✅\nPython {}\nTelethon {}\n
  """.format(
         sys.version,
         __version__
