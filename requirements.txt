@@ -17,4 +17,5 @@ dnspython
 opencv-contrib-python
 opencv_python>=1.1.1
 numpy>=1.11.1
-
+praw
+databases[sqlite]
